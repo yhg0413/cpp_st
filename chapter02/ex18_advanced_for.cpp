@@ -10,12 +10,12 @@ int main(int argc, char const *argv[]){
 
     cout << sum << endl << endl;
 
-    for(int i : list){
+    for(int& i : list){
         cout << i << " ";
     }
 
     cout << endl;
-    for(auto& i : list){
+    for(auto i : list){
         cout << i << " ";
     }
 
