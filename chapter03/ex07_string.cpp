@@ -7,7 +7,7 @@ int main(int argc, char const *argv[]){
 
     cout << "이름을 입력하세요: ";
     cin >> s1;
-    //cin.ignore();
+    cin.ignore();
 
     cout << "주소를 입력하세요: ";
     getline(cin,addr);
