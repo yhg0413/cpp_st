@@ -10,11 +10,6 @@ class Time{
         hour = h;
         minute = m;
     }
-    /* 위 Time 과 생성자와 똑같은 뜻 hour = h ,minute = m;
-    Time(int h=0, int m=0) : hour(h), minute(m){
-        
-    }*/
-
     void print(){
         cout << hour << ":" << minute << endl;
     }
