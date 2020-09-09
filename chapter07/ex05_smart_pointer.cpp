@@ -4,6 +4,7 @@ using namespace std;
 
 int main(int argc, char const *argv[]){
     unique_ptr<int[]> buf(new int[10]);
+    //unique_ptr<int[]> buf = new int[10]; //¿¡·¯
 
     for(int i=0; i<10; i++){
         buf[i] = i;

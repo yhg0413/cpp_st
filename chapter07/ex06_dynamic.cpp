@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <memory>
 using namespace std;
 
 class Dog{
@@ -18,8 +19,10 @@ class Dog{
 };
 
 int main(int argc, char const *argv[]){
-    Dog *pDog = new Dog;
-    delete pDog;
+    //Dog *pDog = new Dog;
+    //delete pDog;
+    unique_ptr<Dog> dog(new Dog);
+    
     
     return 0;
 }
