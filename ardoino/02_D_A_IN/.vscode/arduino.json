@@ -1,5 +1,5 @@
 {
-    "sketch": "stopwatch/app.ino",
+    "sketch": "joystick\\ex01\\app.ino",
     "board": "arduino:avr:uno",
     "port": "COM3"
 }
