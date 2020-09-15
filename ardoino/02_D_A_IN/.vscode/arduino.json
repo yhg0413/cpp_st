@@ -1,5 +1,5 @@
 {
-    "sketch": "BUTTON/ex07_LED/app.ino",
+    "sketch": "stopwatch/app.ino",
     "board": "arduino:avr:uno",
     "port": "COM3"
 }
