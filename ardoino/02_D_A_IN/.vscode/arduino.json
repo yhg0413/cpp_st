@@ -1,5 +1,5 @@
 {
-    "sketch": "joystick\\ex01\\app.ino",
+    "sketch": "joystick\\ex02\\app.ino",
     "board": "arduino:avr:uno",
     "port": "COM3"
 }
