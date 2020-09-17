@@ -77,10 +77,13 @@ map(value, fromLow, fromHigh, toLow, toHigh);
 
 ### 조도센서
 -   빛 저항으로 빛 세기 감지하기
-    -   빛에 노출되면 저항이 줄어드는 저항 광전자 효과
-
+    
+-   빛에 노출되면 저항이 줄어드는 저항 광전자 효과
+    
 -   회로 구성
     - 빛 저항 연결
         - 한쪽은 VCC에 연결
         - 다른 한쪽은 A0에 연결
         - 10K 옴 저항 연결
+    
+    ![image-20200916131203158](C:\Users\mmm62\AppData\Roaming\Typora\typora-user-images\image-20200916131203158.png)
